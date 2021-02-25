@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up Page</title>
+</head>
+<body>
+  <style>
+    Body {
+      font-family: Calibri;
+      background-color: deepskyblue;
+    }
+  
+    button {
+      background-color: #4CAF50;
+      width: 100%;
+      color: white;
+      padding: 15px;
+      margin: 10px 0px;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+  
+    form {
+      border: 3px solid #f1f1f1;
+      border-radius: 10px;
+      width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    input[type=text],
+    input[type=password],
+    input[type=date],
+    input[type=email] {
+      width: 100%;
+      margin: 8px 0;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 2px solid green;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
+  
+    button:hover {
+      opacity: 0.7;
+    }
+  
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      margin: 10px 5px;
+    }
+  
+  
+    .container {
+      padding: 25px;
+      background-color: lightblue;
+      border-radius: 9px;
+      width: 500px;
+    }
+  
+    footer {
+      background-color: white;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 30px;
+      text-align: center;
+    }
+    .log{
+      text-decoration: none;
+    }
+    h1{
+      font-family: sans-serif;
+    }
+  </style>
+  </head>
+  
+  <body>
+    <center>
+      <h1> Sign Up Form </h1>
+    </center>
+    <form>
+      <div class="container">
+        <label>First Name : </label>
+        <input type="text" placeholder="Enter Your First Name" name="first name" required>
+        <label>Last Name : </label>
+        <input type="text" placeholder="Enter Your Last Name" name="last name" required>
+        <label>Date of Birth : </label>
+        <input type="date" placeholder="Enter Your Date Of Birth" name="dob" required>
+        <label>Email : </label>
+        <input type="email" placeholder="Enter Your Email Address" name="Email" required>
+        <label>Password : </label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+        <label>Repeat Password : </label>
+        <input type="password" placeholder="Enter Password Again" name="password" required>
+        <input type="checkbox" required> Agreed To Our Terms & Conditions?
+      </br></br>
+        <button type="submit">Register</button>
+        <p>Already have an account? Click <a href="Login.html" class="log">Here</a>
+      </p>
+      </div>
+    </form>
+    <br><br><br><br>
+    <footer>
+      &copy; copyright 2021 <a href="#">Kingsley CJ</a>
+    </footer>
+</body>
+</html>

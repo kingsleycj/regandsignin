@@ -1,0 +1,89 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri;  
+  background-color: deepskyblue;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;  
+        border-radius: 30px; 
+         }   
+ form {   
+        border: 3px solid #f1f1f1; 
+        border-radius: 30px;
+        width:550px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;
+        border-radius: 30px;
+       
+        
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;
+        border-radius: 29px; 
+        width: 500px;
+    }   
+
+footer { 
+    background-color:white ;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    text-align: center;
+    }
+    .reg{
+        text-decoration: none;
+    }
+</style>   
+</head>    
+<body>    
+    <center> <h1> Student Login Form </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Login</button>   
+            <input type="checkbox" checked="unchecked"> Remember me
+            <button type="button" class="cancelbtn"> Cancel</button>
+            Forgot <a href="#"> password? </a>
+            <p>Don't have an account? Click <a href="sign_up.html" class="reg">Here</a></p>
+        </div>   
+    </form>    
+    <br><br><br><br>
+    <footer>
+            &copy; copyright 2021     <a href="#">Kingsley CJ</a>
+    </footer> 
+</body>     
+</html>
